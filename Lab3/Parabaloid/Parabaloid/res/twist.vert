@@ -12,9 +12,9 @@ vec4 GetSurfaceVertex(float x, float y, float w, float step)
 
 void main()
 { 
-	float phase = abs(TWIST) / 2.0;
+	float stage = TWIST ;
 
-    vec4 twistedCoord = GetSurfaceVertex(gl_Vertex.x, gl_Vertex.y, gl_Vertex.w, phase);
+    vec4 twistedCoord = GetSurfaceVertex(gl_Vertex.x, gl_Vertex.y, gl_Vertex.w, stage);
 	
 	vec4 position = gl_ModelViewProjectionMatrix * twistedCoord;
 	// Transform twisted coordinate
