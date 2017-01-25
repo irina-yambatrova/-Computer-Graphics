@@ -12,7 +12,7 @@ namespace
 const vec3 CAMERA_EYE = {0, 10, 20};
 const vec3 CAMERA_AT = {0, 0, 0};
 const vec3 CAMERA_UP = {0, 1, 0};
-const vec4 SUNLIGHT_DIRECTION = {0.25, 0.25, 0.25, 0.25 };
+const vec4 SUNLIGHT_DIRECTION = {0, -1, 0, 0};
 const vec4 WHITE_RGBA = {1, 1, 1, 1};
 const vec4 FADED_WHITE_RGBA = {0.3f, 0.3f, 0.3f, 1.0f};
 const char SCENE_JSON[] = "res/static_scene/scene.json";
